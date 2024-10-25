@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madhan Raj K R Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            background-color: black;
+        }
+        .nav {
+            position: fixed;
+            top: 10px;
+            right: 20px;
+        }
+        .nav a {
+            margin: 0 15px;
+            color: #ffb703;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        .nav a:hover {
+            color: #fb8500;
+        }
+        .section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        .content {
+            max-width: 1000px;
+            text-align: center;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #f77f00;
+        }
+        p {
+            font-size: 1.2rem;
+            margin: 15px 0;
+        }
+        .highlight {
+            color: #ffb703;
+            font-weight: bold;
+        }
+        /* Home Section */
+        .home {
+            background-color: #1a1a1a;
+        }
+        .home-content h1 {
+            font-size: 3rem;
+            letter-spacing: 2px;
+        }
+        .home-content p {
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+            margin: 20px 0;
+        }
+        /* Image Section */
+        .image-section {
+            margin-bottom: 20px; /* Space below the image */
+        }
+        .image-section img {
+            width: 300px; /* Adjust width as needed */
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        .image-section p {
+            margin-top: 10px;
+            font-style: italic;
+            color: #ffb703;
+        }
+
+        /* Skills and Education Section */
+        .skills, .education {
+            background-color: #252525;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .skills-container, .education-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 50px;
+        }
+        .skills-box, .achievements-box, .education-box {
+            background-color: #444;
+            padding: 30px;
+            width: 30%;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .skills-box ul, .achievements-box ul, .education-box ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .skills-box li, .achievements-box li, .education-box li {
+            background-color: #555;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        /* Projects Section */
+        .projects {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+        }
+        .projects-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 1000px;
+            padding: 20px;
+        }
+        .project-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .project-title {
+            width: 45%;
+            background-color: #444;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: #f77f00;
+        }
+        .project-description {
+            width: 45%;
+            background-color: #555;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <div class="content home-content">
+            <!-- Image Section -->
+            <div class="image-section">
+                <img src="c:\Users\madha\Downloads\photo.jpg" alt="Madhan Raj K R" />
+                
+            </div>
+            <h1>Hi, I'm Madhan Raj K R</h1>
+            <p>
+                B.Tech Computer Science student at 
+                <span class="highlight">Garden City University</span>, passionate about coding and technology.
+            </p>
+            <p>
+                I love learning new skills, solving problems, and building innovative projects.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="content">
+            <h2>Education</h2>
+            <div class="education-container">
+                <div class="education-box">
+                    <h3>Jain International School</h3>
+                    <ul>
+                        <li>Grades: 1-10</li>
+                        <li>Year Passed: 2021</li>
+                    </ul>
+                </div>
+                <div class="education-box">
+                    <h3>Vidya Jyothi</h3>
+                    <ul>
+                        <li>Pre-University College</li>
+                        <li>Year Passed: 2023</li>
+                    </ul>
+                </div>
+                <div class="education-box">
+                    <h3>Garden City University</h3>
+                    <ul>
+                        <li>B.Tech in Computer Science</li>
+                        <li>Currently Pursuing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Skills and Achievements Section -->
+    <section id="skills" class="section skills">
+        <div class="content">
+            <h2>Skills & Achievements</h2>
+            <div class="skills-container">
+                <!-- Skills Box -->
+                <div class="skills-box">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li><strong>HTML:</strong> Proficient in creating well-structured and semantic web pages.</li>
+                        <li><strong>CSS :</strong> Experienced in styling websites with responsive designs ,frameworks.</li>
+                        <li><strong>Python :</strong> Strong knowledge in data analysis and web using frameworks like Django.</li>
+                        <li><strong>JavaScript :</strong> SightlySkilled in developing interactive web .</li>
+                        <li><strong>C++ :</strong> Familiar with object-oriented programming and data structures.</li>
+                        <li><strong>MySQL :</strong> Knowledgeable in database design, SQL queries, and data management.</li>
+                        <li><strong>Git & GitHub :</strong>Knowledgeable in control systems for collaborative development.</li>
+                    </ul>
+                </div>
+<div class="image-section">
+                <img src="C:\Users\madha\Downloads\ghj1.jpeg" />
+              
+            </div>
+                <!-- Achievements Box -->
+                <div class="achievements-box">
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li>7th grade: TalentX Exam Certificate</li>
+                        <li>10th grade: Gold Medal in Kabaddi</li>
+                        <li>PU College: 2nd Place in Debating Competition</li>
+                        <li>  </li>
+                      
+                        <li>Presented AI research paper</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="content">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <!-- Project Row 1 -->
+                <div class="project-row">
+                    <div class="project-title">Personal Portfolio Website</div>
+                    <div class="project-description">
+                        Built a responsive portfolio using HTML, CSS, and JavaScript to showcase personal skills and projects in an elegant and interactive design.
+                    </div>
+                </div>
+                <!-- Project Row 2 -->
+                <div class="project-row">
+                    <div class="project-title">Real-time Chat Application</div>
+                    <div class="project-description">
+                        Developing a real-time chat application using Node.js, enabling users to communicate instantly with responsive UI and multi-room chat functionality.
+                    </div>
+                </div>
+                <!-- Project Row 3 -->
+                <div class="project-row">
+                    <div class="project-title">E-Commerce Website</div>
+                    <div class="project-description">
+                        future paln is to Create a full-stack e-commerce platform using React for the frontend and MySQL for data storage, with integrated payment gateways.
+                    </div>
+                </div>
+                <!-- Project Row 4 -->
+                <div class="project-row">
+                    <div class="project-title">AI Medical Assistant</div>
+                    <div class="project-description">
+                        Future paln is to Built an AI-powered chatbot to assist in diagnosing common medical conditions by asking users questions about symptoms and providing possible diagnoses.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html> 
